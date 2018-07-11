@@ -4,6 +4,19 @@
 }
 
 
-#restaurants-list li a:hover {
-  background-colorbackground-color: green;
+#restaurants-list li button:hover {
+    background-color:orange;
+    background: -webkit-linear-gradient(orange, #e08951);
+    background: linear-gradient(orange, #e08951);
+    border: solid 1px #eee;
+    box-shadow: inset 0 0 2px #fff;
+}
+
+#restaurants-list li button:active {
+    position: relative;
+    top: 1px;
+}
+
+#restaurants-list li button:focus {
+    border: solid 1px #000;
 }

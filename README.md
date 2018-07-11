@@ -1,4 +1,3 @@
-https://github.com/kathleenwest/mws-restaurant-stage-1-kew/blob/master/index.html
 
 # Mobile Web Specialist Certification Course
 ---

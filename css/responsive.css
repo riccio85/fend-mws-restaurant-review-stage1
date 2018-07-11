@@ -1,0 +1,45 @@
+/* Desktops */
+
+
+#restaurants-list {
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+@media screen and (min-width: 960px) {
+
+  #restaurants-list {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Mobile devices - Landscape Mode / Tablet devices - Portrait Mode */
+@media screen and (max-width: 720px) {
+
+    /* #restaurants-list li {
+    	width:50%
+    } */
+
+}
+
+/* Secondary Breakpoints - Content Oriented */
+@media screen and (max-width: 580px) {
+
+    /* #restaurants-list li {
+    	width:100%;
+      margin: 1%;
+    } */
+
+}
+
+/* Mobile devices - Portrait Mode */
+@media screen and (max-width: 420px) {
+
+    /* #restaurants-list li {
+    	width:100%
+    } */
+
+}

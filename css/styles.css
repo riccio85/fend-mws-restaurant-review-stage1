@@ -37,12 +37,13 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #maincontent {
   /* background-color: #f3f3f3; */
+	width:100%;
   min-height: 100%;
 }
 #footer {
   background-color: #444;
   color: #aaa;
-  font-size: 8pt;
+  font-size: 10pt;
   letter-spacing: 1px;
   padding: 25px;
   text-align: center;
@@ -195,7 +196,7 @@ nav h1 a {
   text-decoration: none;
   text-transform: uppercase;
 }*/
-/*  TODO spostato su accessibility */
+/*  TODO spostato su acce
 #restaurants-list li button {
   background-color: orange;
   border-bottom: 3px solid #eee;
@@ -207,9 +208,7 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-	cursor: pointer;
-	outline: none;
-}
+} */
 
 
 /* ====================== Restaurant Details ====================== */
@@ -221,11 +220,11 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  /* height: 87%;
   position: fixed;
   right: 0;
-  top: 80px;
-  width: 50%;
+  top: 80px; */
+  /* width: 50%; */
 }
 .inside #map {
   background-color: #ccc;
@@ -267,12 +266,12 @@ nav h1 a {
   text-transform: uppercase;
 	width: 90%;
 }
-#restaurant-container, #reviews-container {
+/* #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
   width: 50%;
-}
+}  */
 #reviews-container {
   padding: 30px 40px 80px;
 }

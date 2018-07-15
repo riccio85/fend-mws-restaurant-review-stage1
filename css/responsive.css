@@ -6,8 +6,8 @@
   grid-gap: 30px;
 }
 
-
 .inside #maincontent {
+	width:100%;
 	display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -16,36 +16,115 @@
 
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+
+	flex-direction: row;
+	justify-content: space-around;
+
+	margin-top: 100px;
 }
 
 
-/* Desktops */
-@media screen and (min-width: 960px) {
 
-  #restaurants-list {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+.inside #map-container {
+  padding: 10px;
+	height: 400px;
+}
 
+#restaurant-container {
+		text-align:center;
+}
+
+
+/*
+.inside #map-container {
+  background: blue none repeat scroll 0 0;
+  right: 0;
+  top: 80px;
+} */
+
+#restaurant-container, #reviews-container {
+ border-bottom: 1px solid #d9d9d9;
+ border-top: 1px solid #fff;
+}
+
+
+
+
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#restaurants-list {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	.inside #maincontent > section{
+			width: 48%;
+	}
+/*
 	.inside #maincontent {
-    max-width: 1000px;
-    margin: auto;
-  }
+		max-width: 1000px;
+		margin: auto;
+	}
 
-}
-
-
-@media screen and (max-width: 580px) {
-
- .inside #map-container {
+	.inside #map-container {
+		height: 87%;
+		position: fixed;
+		right: 0;
+		top: 80px;
+		width: 50%;
+	}
+	#restaurant-container, #reviews-container {
+	 padding: 140px 40px 30px;
 	 width: 50%;
-	 height: 80%;
-	 position: fixed;
+	} */
+
  }
- .inside #restaurant-container {
-	 width: calc(50% - 10px);
- }
+ /* Medium devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+
+	 /* .inside #maincontent > section{
+	 		width: 48%;
+	 } */
+	/* .inside #map-container {
+		height: 400px;
+		position: relative;
+		right: 0;
+		top: 80px;
+		width: 100%;
+	}
+	#restaurant-container, #reviews-container {
+	 padding: 140px 40px 30px;
+	 width: 100%;
+	} */
 
 
+
+ }
+
+ /* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px){
+	/* .inside #map-container {
+ 	  height: 400px;
+ 	  position: relative;
+ 	  right: 0;
+ 	  top: 80px;
+ 	  width: 100%;
+ 	}
+ 	#restaurant-container, #reviews-container {
+ 	 padding: 140px 40px 30px;
+ 	 width: 100%;
+ 	} */
+	  .inside #maincontent > section {
+	    width: 100%;
+		}
+
+		.inside #map-container {
+			 height:400px;
+			 width: 98vw;
+			 margin:10px;
+		}
 
 }

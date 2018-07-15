@@ -1,9 +1,7 @@
 ## This is **Restaurant Reviews - stage 1**  Project, as part of Udacity's "Front End Developer Nanodegree Program".
+Here you can find the [starter code](https://github.com/udacity/mws-restaurant-stage-1).
 
-## Project Overview: Stage 1
-
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In this **Stage One** phase, the a static design that lacks accessibility it has been converted to be responsive on different sized displays and accessible for screen reader use. It has been added also a service worker to begin the process of creating a offline experience for users.
-
+ In this **Stage One** phase, the a static design that lacks accessibility it has been converted to be responsive  and accessible for screen reader use. It has been added also a service worker to create a offline experience for users.
 
 ### How to run?
 
